@@ -11676,9 +11676,9 @@
         $("#" + divId).html("");
 
         var ran5 = 10000 + Math.round(Math.floor() * 90000);
-        var subDiv = $('<div/>').attr({ class: 'unknown_files', id: "unknown_file_" + ran5, style: "color:#9d9999;font-size:30pt" });
+        var subDiv = $('<div/>').attr({ class: 'unknown_files', id: "unknown_file_" + ran5, style: "color:#9d9999;font-size:17px" });
         $("#" + divId).append(subDiv);
-        $("#unknown_file_" + ran5).html("The file is not supported!");
+        $("#unknown_file_" + ran5).html("Arquivo não suportado");
         return true;
     }
 }(jQuery));
