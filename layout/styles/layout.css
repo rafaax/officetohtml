@@ -1,12 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Epigosha
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
@@ -14,9 +6,6 @@ File: Layout CSS
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1{border-bottom:1px solid;}
-.row2, .row2 a{}
-.row3, .row3 a{}
-.row4, .row4 a{}
 .row5{border-top:1px solid;}
 
 
@@ -24,7 +13,6 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro .box{padding-top:150px; padding-bottom:150px;}
 
-#pageintro article{}
 #pageintro article .heading{margin-bottom:30px; font-size:36px;}
 #pageintro article p{font-size:16px;}
 #pageintro article footer{margin-top:50px;}
@@ -32,7 +20,6 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{}
 
 #header #logo{margin:29px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; line-height:1; text-transform:uppercase;}
@@ -43,7 +30,6 @@ File: Layout CSS
 .container{padding:80px 0;}
 
 /* Content */
-.container .content{}
 
 #stats{text-align:center;}
 #stats li *{margin:0; padding:0;}
@@ -52,7 +38,6 @@ File: Layout CSS
 #stats li p:first-of-type{margin-bottom:30px; font-size:32px; font-weight:700;}
 #stats li p:last-of-type{text-transform:uppercase;}
 
-.latest{}
 .latest figure{display:inline-block; position:relative; max-width:100%; margin-bottom:30px;}
 .latest figure figcaption{display:block; position:absolute; top:10px; left:10px; width:60px; height:auto; padding:8px 0; border:1px solid; text-align:center;}
 .latest figure figcaption *{display:block; margin:0; padding:0;}
@@ -77,7 +62,6 @@ File: Layout CSS
 #comments input[type="submit"], #comments input[type="reset"]{display:inline-block; width:auto; min-width:150px; margin:0; padding:8px 5px; cursor:pointer;}
 
 /* Sidebar */
-.container .sidebar{}
 
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
@@ -85,7 +69,6 @@ File: Layout CSS
 
 /* Elements
 --------------------------------------------------------------------------------------------------------------- */
-#elements{}
 
 #elements article{display:block; position:relative; min-height:80px; margin:0 0 30px 0; padding:0 0 0 40px;}
 #elements article:last-child{margin:0;}
@@ -114,7 +97,6 @@ File: Layout CSS
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
-#footer .contact{}
 #footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
 #footer .contact li *{margin:0; padding:0; line-height:1.6;}
 #footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
@@ -147,8 +129,6 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
-#mainav{}
-#mainav ul.clear{}
 #mainav ul{text-transform:uppercase;}
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none;}
 #mainav ul ul ul{left:180px; top:0;}
@@ -209,38 +189,6 @@ table, th{table-layout:auto;}
 table{width:100%; margin-bottom:15px;}
 th, td{padding:5px 8px;}
 td{border-width:0 1px;}
-
-
-/* Gallery
---------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
-#gallery figure figcaption{display:block; width:100%; clear:both;}
-#gallery li{margin-bottom:30px;}
-
-
-/* Font Awesome Social Icons
---------------------------------------------------------------------------------------------------------------- */
-.faico{margin:0; padding:0; list-style:none;}
-.faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
-.faico li:last-child{margin-right:0;}
-.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
-
-.faico a{color:#050505; background-color:#0F84AA;}
-.faico a:hover{color:#FFFFFF;}
-
-.faicon-dribble:hover{background-color:#EA4C89;}
-.faicon-facebook:hover{background-color:#3B5998;}
-.faicon-google-plus:hover{background-color:#DB4A39;}
-.faicon-linkedin:hover{background-color:#0E76A8;}
-.faicon-twitter:hover{background-color:#00ACEE;}
-.faicon-vk:hover{background-color:#4E658E;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
 
 
 /* Colours

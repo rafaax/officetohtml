@@ -1,14 +1,6 @@
 @charset "utf-8";
-/*
-Template Name: Epigosha
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Framework CSS
-*/
 
-html{overflow-y:scroll; overflow-x:hidden;} /* overflow-x:hidden; is required to prevent a horizontal scrollbar when using the split box elements */
+html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
 *, *::before, *::after{box-sizing:border-box;}
