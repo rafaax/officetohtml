@@ -7,8 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./include/pdf/pdf.viewer.css"> 
-    <script src="./include/pdf/pdf.js"></script> 
+    <link rel="stylesheet" href="./include/pdf/pdf.viewer.css">
+    <script src="./include/pdf/pdf.js"></script>
     <!--Docs-->
     <script src="./include/docx/jszip-utils.js"></script>
     <script src="./include/docx/mammoth.browser.min.js"></script>
@@ -36,24 +36,24 @@
 
 </head>
 <body>
-    <div id="resolte-contaniner" style="width: 100%; height:750px; overflow: auto;"></div>    
+    <div id="resolte-contaniner" style="width: 100%; height:750px; overflow: auto;"></div>
 </body>
 </html>
 
 
 <script>
 
-    var file_path = "./files/demo.pptx";
+    var file_path = "./files/apresentacao controle de ptc.pptx";
     $("#resolte-contaniner").officeToHtml({
         url: file_path,
-        docxSetting: {
-            styleMap : null,
-            includeEmbeddedStyleMap: true,
-            includeDefaultStyleMap: true,
-            convertImage: null,
-            ignoreEmptyParagraphs: false,
-            idPrefix: "",
-            isRtl : "auto" 
+        imageSetting: {
+            frame: ['100%', '100%',false],
+            maxZoom: '900%',
+            zoomFactor: '10%',
+            mouse: true,
+            keyboard: true,
+            toolbar: true,
+            rotateToolbar: true
         }
     });
 </script>
