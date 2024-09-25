@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>dOCX TESTER</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./include/pdf/pdf.viewer.css"> 
+    <script src="./include/pdf/pdf.js"></script> 
+    <!--Docs-->
+    <script src="./include/docx/jszip-utils.js"></script>
+    <script src="./include/docx/mammoth.browser.min.js"></script>
+    <!--PPTX-->
+    <link rel="stylesheet" href="./include/PPTXjs/css/pptxjs.css">
+    <link rel="stylesheet" href="./include/PPTXjs/css/nv.d3.min.css">
+    <!-- optional if you want to use revealjs (v1.11.0) -->
+    <link rel="stylesheet" href="./include/revealjs/reveal.css">
+    <script type="text/javascript" src="./include/PPTXjs/js/filereader.js"></script>
+    <script type="text/javascript" src="./include/PPTXjs/js/d3.min.js"></script>
+    <script type="text/javascript" src="./include/PPTXjs/js/nv.d3.min.js"></script>
+    <script type="text/javascript" src="./include/PPTXjs/js/pptxjs.js"></script>
+    <script type="text/javascript" src="./include/PPTXjs/js/divs2slides.js"></script>
+
+    <!--All Spreadsheet -->
+    <link rel="stylesheet" href="./include/SheetJS/handsontable.full.min.css">
+    <script type="text/javascript" src="./include/SheetJS/handsontable.full.min.js"></script>
+    <script type="text/javascript" src="./include/SheetJS/xlsx.full.min.js"></script>
+    <!--Image viewer--> 
+    <link rel="stylesheet" href="./include/verySimpleImageViewer/css/jquery.verySimpleImageViewer.css">
+    <script type="text/javascript" src="./include/verySimpleImageViewer/js/jquery.verySimpleImageViewer.js"></script>
+    <!--officeToHtml-->
+    <script src="../officeToHtml.js"></script>
+    <link rel="stylesheet" href="../officeToHtml.css">
+
+</head>
+<body>
+    <div id="resolte-contaniner" style="width: 100%; height:750px; overflow: auto;"></div>    
+</body>
+</html>
+
+
+<script>
+
+    var file_path = "./files/demo.pptx";
+    $("#resolte-contaniner").officeToHtml({
+        url: file_path,
+        docxSetting: {
+            styleMap : null,
+            includeEmbeddedStyleMap: true,
+            includeDefaultStyleMap: true,
+            convertImage: null,
+            ignoreEmptyParagraphs: false,
+            idPrefix: "",
+            isRtl : "auto" 
+        }
+    });
+</script>
