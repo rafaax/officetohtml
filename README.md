@@ -10,7 +10,6 @@ Based on <a href="https://github.com/meshesha/OfficeJs">meshesha's OfficeJs proj
 Integrates other libraries like PPTXjs, mammoth.js, SheetJs Combined with handsontable and PDF.js designed to convert Office files and pdf files to HTML.
 
 
-
 ### Support:
 * pdf viewer
 * docx viewer
@@ -18,13 +17,3 @@ Integrates other libraries like PPTXjs, mammoth.js, SheetJs Combined with handso
 * xlsx viewer
 * csv viewer
 * image viewer
-
-
-### Demo
-* See demo <a href="https://officetohtml.js.org/pages/demos.html" target="_blank">here</a>.
-
-###  usage:
-* See page <a href="https://officetohtml.js.org/pages/docs.html" target="_blank">here</a>.
-
-### LICENSE:
-* MIT
